@@ -13,3 +13,26 @@ We will be taking the ID as a primary key because ID is unique for every user, f
 
 ## **Photos**
 
+
+## **Comments**
+
+
+## **Likes**
+
+
+## **Followers**
+
+
+## **Hashtags**
+
+
+
+
+
+
+
+## **tags
+
+
+
+
