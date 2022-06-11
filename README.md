@@ -13,6 +13,8 @@ We will be taking the ID as a primary key because ID is unique for every user, f
 
 ## **Photos**
 
+Photos is our next feature. Here we create a table with id as Primary key, image_url, user_id, time and we use foreign key where the user_id references users(table's) id. We insert into image_url and user_id the values we want to insert and then if we want all the data's in the table then we **Select * from photos join users on photos.user_id = users.id**; for getting all the value and if we want only image_url and name then we **Select photos.image_url, users.Name from photos Join users on photos.user_id = users.id**;
+
 
 ## **Comments**
 
