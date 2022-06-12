@@ -33,6 +33,10 @@ Now comes the follower and followee part we will be taking follower_id, followee
 
 ## **Hashtags#️⃣**
 
+Finally we are coming to the end of the Instagram_Database_Design and the last feature we have is hashtags. So, in this feature we will create hashtags table and it contains id bucause we will also have photo_tag so here id is needed, hashtags and a created_at. We put the desired hastags we need.
+Now, we also have an table under the hashtags i.e. the photo_tag which tells which photo we want to put the hashtag and in this we have a photo_id, and a tag_id and witht the help of foreign key we will Reference photo_id with photos(id) and tag_id with hashtags(id). We also have an primary key photo_id and tag_id so that we can use same hashtag of a same photo.
+
+
 
 
 
