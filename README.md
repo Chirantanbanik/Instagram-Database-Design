@@ -18,6 +18,8 @@ Photos is our next feature. Here we create a table with id as Primary key, image
 
 ## **Comments**
 
+For comments we will take id which is auto increment and a primary key, comment_text is the comment, user_id which we have already taken in Photos feature and photo_id we will be taking  and here there are two foreign key user_id and photo_id which references to users(id) and photo(id). After this insert we will insert the values that are comment_text, user_id which is which user is commenting and photo_id on which photo it is commented. Now, we will provide the values as we want to.
+
 
 ## **Likes**
 
