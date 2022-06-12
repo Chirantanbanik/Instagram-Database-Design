@@ -28,6 +28,8 @@ For the likes we will create the likes table, in it we will be puting user_id, p
 
 ## **Follows**
 
+Now comes the follower and followee part we will be taking follower_id, followee_id. created_at, two foreign key follower_id & followee_id both references the users_id and at last the primary key follower_id and followee_id so that one person cannot again follow the same person.
+
 
 ## **Hashtags#️⃣**
 
