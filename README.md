@@ -26,7 +26,7 @@ For comments we will take id which is auto increment and a primary key, comment_
 For the likes we will create the likes table, in it we will be puting user_id, photo_id, create_at now for Foreign key the user_id will Reference users(id) and photo_id will Reference photos(id) and at last we will take a Primary key of user_id and photo_id so that we can't insert 2 likes that are exactly the same. We will also not take id because we are not inserting 2 likes. 
 
 
-## **Followers**
+## **Follows**
 
 
 ## **Hashtags**
