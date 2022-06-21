@@ -2,6 +2,8 @@
 
 Tech Stack used - MySQL
 
+An basic idea behind **Instagram Database Design** with some important features, but this is not an app or web it's only a simple model on how the database is designed!
+
 We will first create a database with name **Instagram_database_design**
 after that let’s find out what the features or the table we can design.
 
